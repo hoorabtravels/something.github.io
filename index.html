@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Palace Hotel | Home</title>
+        <style>
+            body{
+                opacity: 100%;
+                background-image: url("https://free4kwallpapers.com/uploads/originals/2015/07/21/dubai-hotel.jpg");
+                font-size: 20px;
+            }
+        </style>
+        <script src=script.js></script>
+    </head>
+    <body>
+       <center> <h1>Palace Hotel Reservation</h1></center>
+        <p>Please fill in this hotel reservation form to book a room for the period you would like to stay</p>
+        <hr>
+        <br>
+        <br>
+        <form>
+            Name
+            <input type="text" value="Name" id="Name">
+            
+            <input type="text" id="lastname">
+            <br>
+            <br>
+            Address
+            
+            <input type="text" id="address">
+            <br>
+            <br>
+            City
+            <input type="text" id="city">
+            <br>
+            <br>
+            State
+            <input type="text" id="state">
+            <br>
+            <br>
+            Postal/Zip Code
+            <input type="text" value="Postal/Zip Code" id="postalcode">
+            <br>
+            <br>
+            Country 
+            <input type="text" id="country">
+            <br>
+            <br>
+            Email
+            <br>
+            <input type="email" id="email"> Phone <input type="tel" placeholder="###########" id="phone">
+            <br>
+            <br>
+            Check In
+            <input type="date" id="checkin">
+            Check Out 
+            <input type="date" id="checkout">
+            Type of Room
+            <br>
+            <br>
+            Which rooms would you like to book in SINGLE
+            <br>
+            Room 102
+            <input type="checkbox" id="chx1" value="102">
+            <br>
+            Room 103
+            <input type="checkbox" id="chx2" value="103">
+            <br>
+            Room 104
+            <input type="checkbox" id="chx3" value="104">
+            <br>
+            Which rooms woul you like to book in DOUBLE
+            <br>
+            Room 108
+            <input type="checkbox" id="chx4" value="108">
+            <br>
+            Room 109
+            <input type="checkbox" id="chx5" value="109">
+            <br>
+            Room 110
+            <input type="checkbox" id="chx6" value="110">
+            <br>
+            <br>
+            Any Extra Information
+            <input type="text" id="extra">
+            <br>
+            <br>
+            
+            <input type="submit" value="Reserve" id="btn" onclick="Reserved()">
+        </form>
+    </body>
+</html>
